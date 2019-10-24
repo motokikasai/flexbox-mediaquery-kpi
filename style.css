@@ -45,10 +45,38 @@ section {
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding: 30px 0;
   flex-grow: 1;
 }
 
 footer {
   text-align: right;
   margin-top: 100px;
+}
+
+/* ------------------------------------------
+* media query
+* ------------------------------------------- */
+
+@media (min-width: 658px) {
+  section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .image-container {
+    flex-shrink: 0;
+  }
+
+  .text-container {
+    padding: 0 40px;
+  }
+}
+
+@media (min-width: 1000px) {
+  main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 }
