@@ -58,7 +58,7 @@ footer {
 * media query
 * ------------------------------------------- */
 
-@media (min-width: 658px) {
+@media (min-width: 798px) {
   section {
     display: flex;
     flex-direction: row;
@@ -70,13 +70,25 @@ footer {
 
   .text-container {
     padding: 0 40px;
+    text-align: left;
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1300px) {
   main {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  section {
+    width: 600px;
+  }
+
+  section:nth-child(even) {
+    align-self: flex-end;
+    flex-direction: row-reverse;
   }
 }
