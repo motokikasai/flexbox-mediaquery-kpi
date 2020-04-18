@@ -2,17 +2,15 @@
 
 ## Desktop
 
-* [] the list is centered on the screen
-* [] icons are placed on each side of the item
-
-Take a look at the example:
+- [x] the list is centered on the screen
+- [x] icons are placed on each side of the item
 
 ![example](kpi-list-desktop-example.png)
 
 ## Tablet
 
-* [] all items are displayed one below the other
-* [] all icons are on the same side
+- [x] all items are displayed one below the other
+- [x] all icons are on the same side
 
 Take a look at the example:
 
@@ -20,9 +18,7 @@ Take a look at the example:
 
 ## Mobile
 
-* [] content is centered
-
-Take a look at the example:
+- [x] content is centered
 
 ![example](kpi-list-mobile-example.png)
 
@@ -30,12 +26,13 @@ Take a look at the example:
 
 ```html
 <p>
-    Icons made by 
-    <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
-        Freepik
-    </a> from 
-    <a href="https://www.flaticon.com/" title="Flaticon">
-        www.flaticon.com
-    </a>  
+  Icons made by
+  <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
+    Freepik
+  </a>
+  from
+  <a href="https://www.flaticon.com/" title="Flaticon">
+    www.flaticon.com
+  </a>
 </p>
 ```
